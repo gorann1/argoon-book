@@ -20,6 +20,14 @@ module.exports = [
               sourceTag: '*',
               onlyDependOnLibsWithTags: ['*'],
             },
+            {
+              "sourceTag": "scope:server",
+              "onlyDependOnLibsWithTags": ["scope:server", "scope:shared"]
+            },
+            {
+              "sourceTag": "scope:client",
+              "onlyDependOnLibsWithTags": ["scope:client", "scope:shared"]
+            },
           ],
         },
       ],

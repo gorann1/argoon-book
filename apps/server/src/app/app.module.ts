@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
+import { FeatureTicketModule } from '@fst/server/feature-ticket';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 @Module({
-  imports: [],
+  imports: [FeatureTicketModule],
   controllers: [AppController],
   providers: [AppService],
 })

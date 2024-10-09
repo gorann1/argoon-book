@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "feature_ticket": {
+      "type": "library",
+      "root": "server/@fst/server/feature-ticket/feature_ticket",
+      "entryFile": "index",
+      "sourceRoot": "server/@fst/server/feature-ticket/feature_ticket/src",
+      "compilerOptions": {
+        "tsConfigPath": "server/@fst/server/feature-ticket/feature_ticket/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
